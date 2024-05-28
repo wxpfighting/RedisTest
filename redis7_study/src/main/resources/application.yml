@@ -1,0 +1,20 @@
+#spring:
+#  application:
+#   name: redis7_study
+#  data:
+#    redis:
+##      host: 192.168.175.133
+##      port: 6379
+#      password: 123456
+#      lettuce:
+#        pool:
+#          max-active: 8
+#          max-wait: -1ms
+#          max-idle: 8
+#          min-idle: 0
+#        cluster:
+#          refresh:
+#            adaptive: true
+#            period: 2000
+#      cluster:
+#        nodes: 192.168.175.133:6379,192.168.175.133:6380,192.168.175.133:6381
