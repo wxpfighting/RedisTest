@@ -7,7 +7,7 @@ public class A {
         System.out.println("ok");
         System.out.println("masterr");
         System.out.println("hot-fix");
-        System.out.println("hhhot-fix");
+        System.out.println("hhhot-fix");System.out.println("ok");
         System.out.println("ok");
         System.out.println("okkkkkkkkkkk");
     }
