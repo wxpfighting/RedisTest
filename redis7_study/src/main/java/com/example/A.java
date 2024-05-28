@@ -1,5 +1,5 @@
 package com.example;
 
 public class A {
-    private String a;
+    private String b;
 }
