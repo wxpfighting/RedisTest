@@ -28,6 +28,7 @@ public class SimpleCanalClientExample {
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
     public void connection() {
+        System.out.println("开始建立连接");
         // 创建链接
         CanalConnector connector = CanalConnectors.newSingleConnector(new InetSocketAddress("192.168.175.133",
                 11111), "example", "", "");
