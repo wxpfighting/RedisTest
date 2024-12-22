@@ -26,7 +26,7 @@ public class RedisContoller {
 
     @GetMapping("/createOrder")
     public String createOrder(){
-
+        System.out.println("test");
         Integer keyId = ThreadLocalRandom.current().nextInt(1000)+1;
         String serialNo = UUID.randomUUID().toString();
 
