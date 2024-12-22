@@ -13,7 +13,7 @@ import java.util.*;
 public class Redis7StudyApplication {
 
     public static void main(String[] args) {
-        System.out.println("容器开始加载1");
+        System.out.println("容器开始加载2");
         SpringApplication.run(Redis7StudyApplication.class, args);
     }
 
