@@ -1,6 +1,5 @@
 package com.example;
 
-import jakarta.annotation.Resource;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -14,6 +13,7 @@ import java.util.*;
 public class Redis7StudyApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(Redis7StudyApplication.class, args);
     }
 
